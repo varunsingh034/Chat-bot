@@ -2,7 +2,7 @@ from math import e
 import openai
 
 # Initialize the OpenAI client
-client = openai.OpenAI(api_key='your_api_key_here')
+client = openai.OpenAI(api_key='')
 
 print("Chatbot: Hello! I'm ChatGPT. Type 'exit' to end the chat.")
 messages = [{"role": "system", "content": "You are a helpful assistant."}]
